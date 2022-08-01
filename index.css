@@ -1,0 +1,180 @@
+body{        
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 1000px;
+}
+.header{
+    width: 670px;
+    position: fixed;        
+    background:white;
+    padding: 10px 0;
+   height: 20px;
+    color: #fff;
+    top:0px;
+margin-bottom: 20px;
+}
+
+
+.footer{
+    width: 100%;
+    position: fixed;        
+    background:lightblue;
+    padding: 10px 0;
+    color: #fff;
+    bottom: 0;
+}
+
+.parent{
+    display: flex;
+    flex-direction:row;
+    width:670px;
+    margin-top: 143px;
+ }
+ 
+ .child1 {
+    width: 70%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+ 
+ }
+ .child11{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    height: 92px;
+    margin-bottom: 10px;
+ }
+ .child12{
+    display: flex;
+    flex-direction: row;
+    background-color:lightgray;
+    height: 92px;
+    margin-bottom: 10px;
+ }
+ 
+ .child13{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    height: 92px;
+    margin-bottom: 10px;
+ }
+ .child14{
+    display: flex;
+    flex-direction: row;
+    background-color:lightgray;
+    height: 92px;
+    margin-bottom: 10px;
+ }
+ .child15{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 92px;
+    margin-bottom: 10px;
+ }
+ .child16{
+    display: flex;
+    flex-direction: row;
+    background-color:lightgray;
+    height: 92px;
+    margin-bottom: 10px;
+ }
+ .child17{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    height: 92px;
+    margin-bottom: 10px;
+ }
+
+ .child11 > div {
+   margin: 10px;
+    font-size: 10px;
+    margin-inline: auto;  
+ }
+.child12 > div {
+        background-color:lightgray;
+        margin: 10px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-inline: auto;
+    }
+    .child13 > div {
+        background-color: white;
+        margin: 10px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-inline: auto;
+    }
+        .child14 > div {
+        background-color:lightgray;
+        margin: 10px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-inline: auto;
+    }
+     .child15 > div {
+        background-color: white;
+        margin: 10px;
+        font-size: 10px;
+        display: flex;
+        margin-inline: auto;
+        flex-direction: column;
+     }
+        .child16 > div {
+        background-color: lightgray;
+        margin: 10px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-inline: auto;
+    }
+    .child17 > div {
+        background-color:white;
+        margin: 10px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-inline: auto;
+    }
+    .child111{
+        margin-bottom: 20px;
+        text-align:center;
+        font-size:10px;
+        text-justify: auto;
+    }
+    .child112{
+        margin-bottom: 20px;
+        float: center;
+    }
+ .child2 {
+    width: 40%;
+    height: 100vh;
+    margin-right: 20px;
+ }
+ .child21{
+    height:292px;
+    background-color: rgb(216, 241, 241);
+   margin-top: -15px;
+    font-size:10px;
+
+ }
+ .child22{
+    text-align: center;
+    height: 146px;
+    background-color:rgb(210, 238, 247);
+    margin-block-start: -16px;
+ }
+ .child23{
+    background-color: white;
+ }
+ .child24{
+    background-color:grey;
+ }
