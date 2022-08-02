@@ -1,38 +1,32 @@
 body{        
     padding-top: 0px;
     padding-bottom: 0px;
-    width: 1000px;
+    width: 960px;
+    background-color: white;
+    height: 900px;
 }
 .header{
-    width: 670px;
+    width: 960px;
     position: fixed;        
     background:white;
     padding: 10px 0;
-   height: 20px;
+   height: 110px;
     color: #fff;
     top:0px;
-margin-bottom: 20px;
-}
-
-
-.footer{
-    width: 100%;
-    position: fixed;        
-    background:lightblue;
-    padding: 10px 0;
-    color: #fff;
-    bottom: 0;
+margin-bottom:-2px;
 }
 
 .parent{
-    display: flex;
-    flex-direction:row;
-    width:670px;
-    margin-top: 143px;
- }
+   display: flex;
+   flex-direction: row;
+   width: 960px;
+   margin-top: 177px;
+   background-color: lightgray;
+   height:800px;
+}
  
  .child1 {
-    width: 70%;
+    width: 80%;
     background-color:white;
     display: flex;
     flex-direction: column;
@@ -51,8 +45,15 @@ margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     background-color:lightgray;
-    height: 92px;
+    height: 98px;
     margin-bottom: 10px;
+ }
+ .child22-1{
+   color: #fff;
+   font-size: 30px;
+   padding-top: 10px;
+   
+
  }
  
  .child13{
@@ -155,9 +156,10 @@ margin-bottom: 20px;
         float: center;
     }
  .child2 {
-    width: 40%;
+    width: 20%;
     height: 100vh;
-    margin-right: 20px;
+    margin-right: 0px;
+    margin-top: 4px;
  }
  .child21{
     height:292px;
@@ -178,3 +180,59 @@ margin-bottom: 20px;
  .child24{
     background-color:grey;
  }
+ 
+ .footer{
+   width: 960px;
+   position: fixed;        
+   background:lightblue;
+   padding: 10px 0;
+   color: #fff;
+   bottom: 0;
+   display: flex;
+   flex-direction:row;
+   height:160px;
+   margin-top: 10px;
+ 
+  
+}
+.footer1{
+   padding: 10px;
+}
+.connect{
+   color: black;
+   font-size:15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.phone{
+   color:rgb(92, 170, 247);
+   font-size: 10px;
+  
+}
+.button{
+   background-color: royalblue;
+   color: #fff;
+}
+.footer2{
+   padding-left: 40px;
+   color: rgb(5, 109, 178);
+   font-size: 10px;
+   margin-top: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer3{
+   padding-left: 40px;
+   color: rgb(5, 109, 178);
+   font-size: 10px;
+   margin-top: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer4{
+   padding-left: 40px;
+   color: rgb(5, 109, 178);
+   font-size: 12px;
+   margin-top: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+}
